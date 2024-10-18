@@ -16,5 +16,8 @@ return {
       ['<CR>'] = require('cmp').mapping.confirm { select = true },
     },
   },
+
+  -- set leader m to start multicursor
+  -- vim.api.nvim_set_keymap('n', '<leader>m', ':MultipleCursorsFind<CR>', { noremap = true, silent = true }),
   -- vim.api.nvim_set_keymap('n', '<CR>', ':Telescope send_selected_to_qflist<CR>', { noremap = true, silent = true }),
 }

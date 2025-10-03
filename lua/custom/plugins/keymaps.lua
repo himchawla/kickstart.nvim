@@ -10,7 +10,6 @@ return {
   -- leader + T to toggle Neotree
   vim.api.nvim_set_keymap('n', '<leader>T', ':Neotree<CR>', { noremap = true, silent = true }),
   -- return to accept the selection instead of <C-y>
-
   require('cmp').setup {
     mapping = {
       ['<CR>'] = require('cmp').mapping.confirm { select = true },

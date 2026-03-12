@@ -3,6 +3,8 @@
 --
 -- See the kickstart.nvim README for more information
 
+---@module 'lazy'
+---@type LazySpec
 return {
   'hrsh7th/nvim-cmp',
   event = 'InsertEnter', -- or lazy = false if you want it always available
